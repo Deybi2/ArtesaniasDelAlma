@@ -20,25 +20,25 @@ export default function Header() {
     <header className="bg-amber-50 shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-amber-800">
+          <Link to="/" className="text-3xl md:text-4xl font-bold text-amber-800 font-amatic tracking-wide">
             Artesanías del Alma
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
-            <Link to="/" className="text-amber-900 hover:text-amber-700 font-medium">
+            <Link to="/" className="text-amber-900 hover:text-amber-700 font-medium font-montserrat">
               Inicio
             </Link>
-            <Link to="/productos" className="text-amber-900 hover:text-amber-700 font-medium">
+            <Link to="/productos" className="text-amber-900 hover:text-amber-700 font-medium font-montserrat">
               Productos
             </Link>
-            <Link to="/categorias" className="text-amber-900 hover:text-amber-700 font-medium">
+            <Link to="/categorias" className="text-amber-900 hover:text-amber-700 font-medium font-montserrat">
               Categorías
             </Link>
-            <Link to="/sobre-nosotros" className="text-amber-900 hover:text-amber-700 font-medium">
+            <Link to="/sobre-nosotros" className="text-amber-900 hover:text-amber-700 font-medium font-montserrat">
               Sobre Nosotros
             </Link>
-            <Link to="/contacto" className="text-amber-900 hover:text-amber-700 font-medium">
+            <Link to="/contacto" className="text-amber-900 hover:text-amber-700 font-medium font-montserrat">
               Contacto
             </Link>
           </nav>

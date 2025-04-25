@@ -11,8 +11,12 @@ export default function HomePage() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Artesanías del Alma</h1>
-          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Artesanías únicas hechas a mano con amor</p>
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 font-amatic tracking-wide">
+            Artesanías del Alma
+          </h1>
+          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl font-montserrat">
+            Artesanías únicas hechas a mano con amor
+          </p>
           <Link
             to="/productos"
             className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-md font-medium text-lg"
@@ -25,13 +29,15 @@ export default function HomePage() {
       {/* Featured Categories */}
       <section className="py-16 bg-amber-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-amber-900">Nuestras Categorías</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-amber-900 font-amatic tracking-wide">
+            Nuestras Categorías
+          </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="https://st3.depositphotos.com/1000528/36507/i/1600/depositphotos_365075352-stock-photo-street-market-exhibition-of-handmade.jpg" alt="Cerámica" className="w-full h-48 object-cover" />
+              <img src="https://st3.depositphotos.com/1000528/36507/i/1600/depositphotos_365075352-stock-photo-street-market-exhibition-of-handmade.jpg%22%20alt=%22Cer%C3%A1mica%22%20className=%22w-full%20h-48%20object-cover" alt="Cerámica" className="w-full h-48 object-cover" />
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold mb-2 text-amber-800">Cerámica</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-amber-800 font-amatic">Cerámica</h3>
                 <p className="text-gray-600 mb-4">Piezas únicas de cerámica hechas y pintadas a mano</p>
                 <Link to="/productos?categoria=Cerámica" className="text-amber-600 hover:text-amber-800 font-medium">
                   Ver productos
@@ -42,7 +48,7 @@ export default function HomePage() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img src="https://www.lifeder.com/wp-content/uploads/2017/10/artesania-caribenas-colombianas.jpg" alt="Tejidos" className="w-full h-48 object-cover" />
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold mb-2 text-amber-800">Tejidos</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-amber-800 font-amatic">Tejidos</h3>
                 <p className="text-gray-600 mb-4">Tejidos artesanales con técnicas tradicionales</p>
                 <Link to="/productos?categoria=Tejidos" className="text-amber-600 hover:text-amber-800 font-medium">
                   Ver productos
@@ -53,7 +59,7 @@ export default function HomePage() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img src="https://tunegociobonito.com/wp-content/uploads/2022/03/muebles-madera-tienda-artesania.jpg.webp" alt="Decoración" className="w-full h-48 object-cover" />
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold mb-2 text-amber-800">Decoración</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-amber-800 font-amatic">Decoración</h3>
                 <p className="text-gray-600 mb-4">Objetos decorativos para dar vida a tu hogar</p>
                 <Link to="/productos?categoria=Decoración" className="text-amber-600 hover:text-amber-800 font-medium">
                   Ver productos
